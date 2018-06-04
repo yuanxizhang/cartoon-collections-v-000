@@ -15,5 +15,5 @@ end
 def find_the_cheese(a)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  a.select.find {|e| e if cheese_types.include?(e)}
+  a.select.find {|e| cheese_types.include?(e) e : nil}
 end
